@@ -97,6 +97,7 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
     }
     
     // MARK: Media Connectivity methods.
+    
     func showConnectionPrompt() {
         let alertController = UIAlertController(title: "Connect to others", message: nil, preferredStyle: .ActionSheet)
         
